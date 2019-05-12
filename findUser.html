@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+        <title>송금 선택</title>
+    </head>
+
+<body>
+    <fieldset>
+        <legend><h3>사용자 선택</h3></legend>
+        <form name="PHP" method=post action="insertMoney.php">
+        <!-- method post는 뒤의 php로 form 값을 post 형식으로 전달 -->
+        고객님의 고객번호를 입력하세요.<br><br>
+        
+        고객번호 : <input type=text name="cusNum"><br><br>
+        <!-- 여기서 name 속성 값을 통해 php로 전달 됨 -->
+
+        <input type=submit value="검색">
+        <input type=reset value="취소">
+        </form>
+    </fieldset>     
+</body>
+</html>
